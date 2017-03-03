@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333333;
+    width: 100%;
+    height: 60px;
+    position: relative;
+}
+
+nav {
+    top: 20px;
+    right: 50px;
+    position: absolute;
+}
+
+header li {
+    display: inline-block;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    background: #dedede;
+}
+
+main article,aside {
+    background: white;
+    width: 1280px;
+    padding: 10px;
+    margin: 30px auto;
+    box-shadow: 3px 3px 3px gray;
+}
+
+article h1 {
+    padding: 12px;
+}
+
+article h2 {
+    color: #6b6a70;
+    font-size: 15px;
+    padding: 10px;
+}
+
+article span {
+    color: #6b6a70;
+    font-size: 12px;
+    padding: 10px;
+}
+
+article p {
+    font-size: 20px;
+    text-indent: 2em;
+    padding: 10px;
+}
+
+article ul {
+    list-style: none;
+    padding: 10px;
+}
+
+article section {
+    margin-top: 30px;
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+article section h3 {
+    font-size: 16px;
+}
+
+article ol {
+    padding: 20px 45px;
+}
+
+article table {
+    width: 100%;
+    height: 200px;
+    border-collapse: collapse;
+}
+
+article table thead {
+    background: #0096ff;
+    color: white;
+}
+
+article table tfoot {
+    background: #c0c1c2;
+}
+
+article table td {
+    padding-left: 5px;
+}
+
+aside h1 {
+    border-left: 3px solid #ccc;
+    padding-left: 10px;
+}
+
+aside form table {
+    margin: 10px auto;
+    text-align: left;
+}
+
+aside form table span {
+    color: #ccc;
+}
+
+aside button {
+    display: block;
+    width: 40%;
+    height: 50px;
+    background: #0096ff;
+    color: white;
+    border-radius: 15px;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+footer {
+    background: #000001;
+    text-align: center;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+}
